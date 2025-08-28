@@ -3,7 +3,6 @@
 
 import numpy as np
 
-
 def chebvand(deg, x, rect = None):
 
 # INPUT:
