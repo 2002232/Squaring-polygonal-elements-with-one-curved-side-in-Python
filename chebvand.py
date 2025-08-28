@@ -54,15 +54,15 @@ def chebvand(deg, x, rect = None):
 
 def chebpolys(deg,x1):
 
-    # computes the Chebyshev-Vandermonde matrix on the real line by recurrence
+# computes the Chebyshev-Vandermonde matrix on the real line by recurrence
 
-    # INPUT:
-    # deg = maximum polynomial degree
-    # x = list or array of abscissas
+# INPUT:
+# deg = maximum polynomial degree
+# x = list or array of abscissas
 
-    # OUTPUT:
-    # T = Chebyshev-Vandermonde matrix at x,
-    # T(i,j+1)=T_j(x_i), j=0,...,deg
+# OUTPUT:
+# T = Chebyshev-Vandermonde matrix at x,
+# T(i,j+1)=T_j(x_i), j=0,...,deg
 
     x = np.array(x1)
     n = len(x)
