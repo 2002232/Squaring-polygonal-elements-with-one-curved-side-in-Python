@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""r_jacobi.ipynb
+"""r_jacobi.ipynb"""
 
 import numpy as np
 from math import gamma
