@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """gauss.ipynb
 
-
 import numpy as np
 
 def gauss(N, albet):
