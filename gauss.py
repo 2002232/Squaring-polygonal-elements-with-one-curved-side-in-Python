@@ -11,17 +11,17 @@ import numpy as np
 
 def gauss(N, albet):
 
-  #    Gauss quadrature rule.
+#    Gauss quadrature rule.
 
-  #    Given a weight function w encoded by the nx2 array albet of the
-  #    first n recurrence coefficients for the associated orthogonal
-  #    polynomials, the first column of ab containing the n alpha-
-  #    coefficients and the second column the n beta-coefficients,
-  #    the call xw=GAUSS(n,ab) generates the nodes and weights xw of
-  #    the n-point Gauss quadrature rule for the weight function w.
-  #    The nodes, in increasing order, are stored in the first
-  #    column, the n corresponding weights in the second column, of
-  #    the nx2 array xw.
+#    Given a weight function w encoded by the nx2 array albet of the
+#    first n recurrence coefficients for the associated orthogonal
+#    polynomials, the first column of ab containing the n alpha-
+#    coefficients and the second column the n beta-coefficients,
+#    the call xw=GAUSS(n,ab) generates the nodes and weights xw of
+#    the n-point Gauss quadrature rule for the weight function w.
+#    The nodes, in increasing order, are stored in the first
+#    column, the n corresponding weights in the second column, of
+#    the nx2 array xw.
 
   ab = np.array(albet)
   if len(ab[:,0]) < N:
