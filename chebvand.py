@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""chebvand.ipynb
+"""chebvand.ipynb"""
 
 import numpy as np
 
