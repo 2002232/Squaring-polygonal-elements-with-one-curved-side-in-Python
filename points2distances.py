@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+"""points2distances.ipynb"""
+
+import numpy as np
+
 def points2distances(p):
 
   # Create euclidean distance matrix from point matrix.
