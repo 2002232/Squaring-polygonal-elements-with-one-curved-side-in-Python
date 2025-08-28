@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""gauss.ipynb
+"""gauss.ipynb"""
 
 import numpy as np
 
