@@ -6,16 +6,16 @@ import numpy as np
 
 def chebvand(deg, x, rect = None):
 
-  # INPUT:
-  # deg = polynomial degree
-  # x = 2-column array or 2 arrays of the same length of point coordinates
-  # rect = 4-component vector such that the rectangle
-  # [rect(1),rect(2)] x [rect(3),rect(4)] contains X
-  # If you do not compile the input for rect, the program will use as rect the
-  # smaller rectangle containing all the points in X.
+# INPUT:
+# deg = polynomial degree
+# x = 2-column array or 2 arrays of the same length of point coordinates
+# rect = 4-component vector such that the rectangle
+# [rect(1),rect(2)] x [rect(3),rect(4)] contains X
+# If you do not compile the input for rect, the program will use as rect the
+# smaller rectangle containing all the points in X.
 
-  # OUTPUT:
-  # V = Chebyshev-Vandermonde matrix at x, graded lexic. order
+# OUTPUT:
+# V = Chebyshev-Vandermonde matrix at x, graded lexic. order
 
   X = np.array(x)
   if rect is None:
