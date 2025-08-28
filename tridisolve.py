@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""tridisolve.ipynb
+"""tridisolve.ipynb"""
 
 import numpy as np
 
