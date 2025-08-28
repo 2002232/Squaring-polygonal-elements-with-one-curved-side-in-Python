@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""trigauss.ipynb
+"""trigauss.ipynb"""
 
 import numpy as np
 from scipy import integrate
