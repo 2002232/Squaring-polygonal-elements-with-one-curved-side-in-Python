@@ -10,8 +10,7 @@ from math import gamma
 
 def gqellblend(n, A, B, C, alpha, beta):
 
-  # Original code by Gaspare Da Fies, Alvise Sommariva and
-  # Marco Vianello
+  # Original code by Gaspare Da Fies, Alvise Sommariva and Marco Vianello
 
   # 2 June 2011
 
