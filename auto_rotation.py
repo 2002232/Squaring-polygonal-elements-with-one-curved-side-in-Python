@@ -3,6 +3,9 @@
 
 import numpy as np
 
+# Code author: Giovanni Traversin
+# Release date: 05 Sept 2025
+
 def auto_rotation(p, V1, V2):
 
   # AUTOMATIC ROTATION OF A CONVEX POLYGON SO THAT "GAUSSIAN POINTS",
