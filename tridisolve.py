@@ -3,6 +3,9 @@
 
 import numpy as np
 
+# Code author: Giovanni Traversin
+# Release date: 05 Sept 2025
+
 def tridisolve(a,b,c,d):
 
   #   TRIDISOLVE  Solve tridiagonal system of equations.
