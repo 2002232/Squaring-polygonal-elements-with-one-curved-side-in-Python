@@ -4,6 +4,9 @@
 import numpy as np
 from scipy import integrate
 
+# Code author: Giovanni Traversin
+# Release date: 05 Sept 2025
+
 def trigauss(n, alpha, beta):
 
   # by Gaspare Da Fies and Marco Vianello,
