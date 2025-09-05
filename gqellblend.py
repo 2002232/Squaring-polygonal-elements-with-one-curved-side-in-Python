@@ -5,6 +5,9 @@ import numpy as np
 from scipy import integrate
 from math import gamma
 
+# Code author: Giovanni Traversin
+# Release date: 05 Sept 2025
+
 def gqellblend(n, A, B, C, alpha, beta):
 
   # by Gaspare Da Fies, Alvise Sommariva and Marco Vianello
