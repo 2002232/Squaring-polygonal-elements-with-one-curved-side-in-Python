@@ -4,6 +4,9 @@
 import numpy as np
 from math import gamma
 
+# Code author: Giovanni Traversin
+# Release date: 05 Sept 2025
+
 def r_jacobi(N,a=0,b=[]):
 
 #  Recurrence coefficients for monic Jacobi polynomials.
