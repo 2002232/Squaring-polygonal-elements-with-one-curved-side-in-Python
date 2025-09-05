@@ -3,6 +3,9 @@
 
 import numpy as np
 
+# Code author: Giovanni Traversin
+# Release date: 05 Sept 2025
+
 def chebvand(deg, x, rect = None):
 
 # INPUT:
