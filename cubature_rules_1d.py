@@ -3,6 +3,9 @@
 
 import numpy as np
 
+# Code author: Giovanni Traversin
+# Release date: 05 Sept 2025
+
 def cubature_rules_1D(n,cubature_type):
 
   # SEE WALDVOGEL PAPER. ADDED NODES
