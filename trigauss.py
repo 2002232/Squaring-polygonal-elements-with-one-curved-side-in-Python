@@ -9,7 +9,7 @@ from scipy import integrate
 
 def trigauss(n, alpha, beta):
 
-  # by Gaspare Da Fies and Marco Vianello,
+  # Original code by Gaspare Da Fies and Marco Vianello,
   # 8 Nov 2011
 
   # computes the n+1 angles and weights of a trigonometric gaussian
