@@ -9,6 +9,9 @@ import time
 import statistics
 import matplotlib.pyplot as plt
 
+# Code author: Giovanni Traversin
+# Release date: 05 Sept 2025
+
 def demo_polygcirc(test_type=2,n=4,pos=2):
 
   # Code author: Giovanni Traversin
