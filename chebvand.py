@@ -33,7 +33,6 @@ def chebvand(deg, x, rect = None):
 
   for s in range(deg+1):
     good = np.argwhere(jj == s)
-    good = good[np.argsort(good[:, 1])]
     a = s*(s+1)//2
     for i  in range(len(good)):
       couples[a+i] = [j1[good[i][1],good[i][0]], j2[good[i][1],good[i][0]]]
