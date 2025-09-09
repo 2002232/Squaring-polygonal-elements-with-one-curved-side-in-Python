@@ -53,8 +53,10 @@ def chebyshev(N, Mom, Abm=False):
 
   for n in range(2,N+1):
     for m in range(n-1,(2*N-n+1)):
-      sig[n][m] = sig[n-1][m+1]-(ab[n-2][0]-abm[0][m])*sig[n-1][m]-ab[n-2][1]*sig[n-2][m]+abm[1][m]*sig[n-1][m-1]
-    ab[n-1,0] = abm[0][n-1] + sig[n][n]/sig[n][n-1] - sig[n-1][n-1]/sig[n-1][n-2]
+      sig[n][m] = sig[n-1][m+1]-(ab[n-2][0]-abm[0][m])*sig[n-1][m]-\
+      ab[n-2][1]*sig[n-2][m]+abm[1][m]*sig[n-1][m-1]
+    ab[n-1,0] = abm[0][n-1] + sig[n][n]/sig[n][n-1] - \
+    sig[n-1][n-1]/sig[n-1][n-2]
     ab[n-1,1] = sig[n][n-1]/sig[n-1][n-2]
 
   for i in range(N):
