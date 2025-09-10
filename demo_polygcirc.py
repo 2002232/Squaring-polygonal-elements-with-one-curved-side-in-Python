@@ -249,7 +249,7 @@ def polygcirc(n,V,A1,B1,center,r,conv,pos=1,Comp_Flag=True):
   # Convex scenario
   if conv==1:
     P = np.vstack([a,v,b,a])
-    xyw = np.vstack((polygauss_2013(n,P), circtrap(n,b,a,b,a,cc,r)))
+    xyw = np.vstack((polygauss(n,P), circtrap(n,b,a,b,a,cc,r)))
     L += [xyw[:,1].size]
     A = b[:]
     B = a[:]
@@ -295,7 +295,7 @@ def polygcirc(n,V,A1,B1,center,r,conv,pos=1,Comp_Flag=True):
 
     if k>1:
       P1 = np.vstack((a, e, a))
-      xyw = polygauss_2013(n, P1)
+      xyw = polygauss(n, P1)
       L += [xyw[:,0].size]
 
     if k==0 and l>=1:
@@ -342,7 +342,7 @@ def polygcirc(n,V,A1,B1,center,r,conv,pos=1,Comp_Flag=True):
 
     if t>1:
       P2=np.vstack((b,eta,b))
-      nw=polygauss_2013(n,P2)
+      nw=polygauss(n,P2)
       L += [nw[:,1].size]
       xyw = stackxyw(xyw, nw)
 
