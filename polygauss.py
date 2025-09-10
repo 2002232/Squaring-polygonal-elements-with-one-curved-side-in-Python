@@ -3,6 +3,9 @@
 
 import numpy as np
 
+# Code author: Giovanni Traversin
+# Release date: 05 Sept 2025
+
 def polygauss(N, p, P1=[], Q1=[], rotation = 1):
 
   #--------------------------------------------------------------------------
